@@ -125,4 +125,4 @@ npm run update:check
 npm run gh-pages
 ```
 
-然后访问: [https://l3au.github.io/gitbook](https://l3au.github.io/gitbook)
+然后访问: [https://l3au.github.io/gitbook/](https://l3au.github.io/gitbook/)
