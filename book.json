@@ -1,6 +1,6 @@
 {
-    "author": "gitbook",
-    "title": "gitbook-boilerplate",
+    "author": "L3au",
+    "title": "gitbook-introduction",
     "plugins": [
         "prism",
         "-highlight",
@@ -18,11 +18,11 @@
             "showLevel": false
         },
         "disqus": {
-            "shortName": "xxxxxx"
+            "shortName": "gitbook-introduction"
         },
         "editlink": {
             "label": "Edit This Page",
-            "base": "http://git.caimi-inc.com/boilerplate/gitbook/edit/master/"
+            "base": "https://github.com/L3au/gitbook/edit/master/"
         },
         "git-author": {
             "modifyTpl": "最后修改: {user} {timeStamp}",

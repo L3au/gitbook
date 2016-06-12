@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-boilerplate",
+  "name": "gitbook-introduction",
   "version": "1.0.0",
-  "description": "gitbook 模版",
+  "description": "gitbook 介绍",
   "private": true,
   "scripts": {
     "start": "node scripts/server.js",
