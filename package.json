@@ -17,7 +17,7 @@
   "config": {
     "boilerplate": {
       "url": "git@git.caimi-inc.com:boilerplate/gitbook.git",
-      "commit": "89800461d1a1dd3ccbd3559fcd3144cab813ab5f"
+      "commit": "2cd3a80cd6112a345f46893911967d1a08e59363"
     }
   },
   "devDependencies": {
