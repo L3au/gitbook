@@ -1,0 +1,33 @@
+{
+    "author": "gitbook",
+    "title": "gitbook-boilerplate",
+    "plugins": [
+        "prism",
+        "-highlight",
+        "anchors",
+        "disqus",
+        "editlink",
+        "git-author",
+        "expandable-chapters"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "disqus": {
+            "shortName": "xxxxxx"
+        },
+        "editlink": {
+            "label": "Edit This Page",
+            "base": "http://git.caimi-inc.com/boilerplate/gitbook/edit/master/"
+        },
+        "git-author": {
+            "modifyTpl": "最后修改: {user} {timeStamp}",
+            "createTpl": "创建: {user} {timeStamp}",
+            "timeStampFormat": "YYYY/MM/DD HH:mm"
+        }
+    }
+}

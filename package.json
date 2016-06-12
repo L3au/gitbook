@@ -1,0 +1,37 @@
+{
+  "name": "gitbook-boilerplate",
+  "version": "1.0.0",
+  "description": "gitbook 模版",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/server.js",
+    "build": "node scripts/build.js",
+    "build:pdf": "npm run build -- --pdf",
+    "update": "node scripts/update.js",
+    "update:check": "npm run update -- --check",
+    "gh-pages": "node scripts/gh-pages.js"
+  },
+  "pre-push": [
+    "update:check"
+  ],
+  "config": {
+    "boilerplate": {
+      "url": "git@git.caimi-inc.com:boilerplate/gitbook.git",
+      "commit": "89800461d1a1dd3ccbd3559fcd3144cab813ab5f"
+    }
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.0",
+    "execa": "^0.4.0",
+    "fs-extra": "^0.30.0",
+    "gitbook": "^3.1.1",
+    "gitbook-plugin-anchors": "^0.6.0",
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-editlink": "^1.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.1.7",
+    "gitbook-plugin-git-author": "0.0.2",
+    "gitbook-plugin-prism": "^1.0.0",
+    "glob": "^7.0.3",
+    "pre-push": "^0.1.1"
+  }
+}
