@@ -1,0 +1,7 @@
+.npmrc
+.editorconfig
+package.json
+scripts
+*.pdf
+*.mobi
+*.epub

@@ -1,0 +1,9 @@
+.book-header > .btn:nth-child(2) {
+    position: absolute;
+    z-index: 1;
+    left: 90px;
+}
+
+.git-author-container {
+    font-size: 90%;
+}
