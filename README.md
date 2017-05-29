@@ -1,5 +1,7 @@
 # Gitbook
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/L3au/gitbook.svg)](https://greenkeeper.io/)
+
 [Gitbook](https://github.com/GitbookIO/gitbook) 是基于 `git` 和 `Markdown` 书写电子书的工具, 同时提供一整套 [工具链](http://toolchain.gitbook.com/) 来开发和生成它. 除了生成静态网站外, 还可以编译成 `pdf` `mobi` `epub` 等电子书格式. 同时支持多语言、自定义主题和插件等功能.
 
 本模版提供了 Gitbook 初始化配置及常用插件, 并集成方便的构建脚本.
