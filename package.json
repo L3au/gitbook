@@ -22,15 +22,15 @@
   },
   "devDependencies": {
     "bluebird": "^3.4.0",
-    "execa": "^0.4.0",
-    "fs-extra": "^0.30.0",
+    "execa": "^0.6.3",
+    "fs-extra": "^3.0.1",
     "gitbook": "^3.1.1",
-    "gitbook-plugin-anchors": "^0.6.0",
-    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-disqus": "^1.0.1",
     "gitbook-plugin-editlink": "^1.0.2",
-    "gitbook-plugin-expandable-chapters": "^0.1.7",
-    "gitbook-plugin-git-author": "0.0.2",
-    "gitbook-plugin-prism": "^1.0.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-git-author": "1.1.2",
+    "gitbook-plugin-prism": "^2.2.0",
     "glob": "^7.0.3",
     "pre-push": "^0.1.1"
   }
